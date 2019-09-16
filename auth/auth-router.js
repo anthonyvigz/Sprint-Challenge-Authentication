@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const bcrypt = require('bcryptjs');
 const Users = require('../users/users-model.js');
-const { authenticate, jwtKey } = require('../auth/authenticate-middleware.js');
+const jwtKey = require('../auth/authenticate-middleware.js');
 
 
 
