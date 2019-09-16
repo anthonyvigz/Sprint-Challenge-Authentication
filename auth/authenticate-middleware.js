@@ -11,6 +11,7 @@ const jwtKey =
 
 module.exports = {
   authenticate,
+  jwtKey
 };
 
 // implementation details
